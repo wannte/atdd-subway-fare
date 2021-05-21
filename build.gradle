@@ -27,7 +27,10 @@ dependencies {
 	testImplementation 'io.rest-assured:rest-assured:3.3.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+    // db
 	runtimeOnly 'com.h2database:h2'
+	runtimeOnly 'mysql:mysql-connector-java:8.0.16'
+
 
 	// jgrapht
     implementation 'org.jgrapht:jgrapht-core:1.0.1'
